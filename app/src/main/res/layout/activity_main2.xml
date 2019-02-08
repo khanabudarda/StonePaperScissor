@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bckgnd"
+    android:layout_gravity="center_vertical"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stone Paper Scissor"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#ffa500"
+        android:layout_marginVertical="30dp"/>
+
+    <Button
+        android:id="@+id/stone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stone"
+        android:fontFamily=""
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <Button
+        android:id="@+id/paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paper"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <Button
+        android:id="@+id/scissor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scissor"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_marginVertical="20dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <Button
+        android:id="@+id/resu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="new4"
+        android:text="View Results"
+        android:layout_marginVertical="40dp"
+        android:layout_marginHorizontal="70dp"
+        android:background="#a4c639"/>
+
+</LinearLayout>
